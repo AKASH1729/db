@@ -10,7 +10,7 @@ terraform {
     bucket = "workspacesbucketakash"
     key    = "workspace1.statefile"
     region = "us-east-1"
-    dynamodb_table = "dynamodb-state-locking"
+    #dynamodb_table = "dynamodb-state-locking"
         encrypt        = true
   }
 }
